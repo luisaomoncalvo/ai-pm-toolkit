@@ -108,6 +108,26 @@ MCP (Model Context Protocol) lets Claude connect directly to external tools. My 
 
 ---
 
+---
+
+## 🤖 PM Agents Marketplace
+
+I built a public marketplace of AI agents, sub-agents, skills, and workflows for senior PMs — available for anyone to use with Claude Code.
+
+**[→ pm-agents-marketplace](https://github.com/luisaomoncalvo/pm-agents-marketplace)**
+
+| Type | What's inside |
+|------|--------------|
+| **10 Skills** |           |
+| **3 Agents** | Discovery Agent · PRD Agent · Competitive Intelligence Agent |
+| **3 Workflows** | Discovery→PRD · Interview→Stories · Research→GTM |
+
+**How to install any skill:**
+```bash
+cp skills/prd.md your-project/.claude/commands/prd.md
+```
+Then use `/prd` inside Claude Code.
+
 ## 📁 Repo Structure
 
 ```
